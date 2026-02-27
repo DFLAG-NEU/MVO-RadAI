@@ -1,2 +1,16 @@
-MVO Seg code
-Stage I (MVOSeg). The MVOSeg module in the first stage is based on the official PyTorch implementation of LVPSegNet, a previously published work for segmenting the left ventricle and related pathological tissues (including microvascular obstruction) on LGE-CMR images. Please refer to the original GitHub repository for the upstream codebase and documentation: https://github.com/DFLAG-NEU/LVPSegNet
+## Stage I: MVOSeg
+
+The MVOSeg module (Stage I) is based on the official PyTorch implementation of **LVPSegNet**, a previously published work for segmentation on LGE-CMR (including microvascular obstruction, MVO).  
+Upstream codebase and documentation are available here:
+
+- **LVPSegNet (official)**: https://github.com/DFLAG-NEU/LVPSegNet
+
+> **Note**  
+> We integrate LVPSegNet as an upstream segmentation component within our workflow, together with additional preprocessing and downstream radiomics/survival modeling.
+
+---
+
+## Acknowledgements
+
+This project incorporates components adapted from **LVPSegNet**. Please refer to the original repository for details:  
+https://github.com/DFLAG-NEU/LVPSegNet
