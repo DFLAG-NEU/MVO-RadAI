@@ -1,3 +1,13 @@
-# MVO-RadAI
-This repository accompanies the manuscript entitled “AI-based Histological Heterogeneity of Microvascular Obstruction in Cardiac MRI Aids Prediction of MACE in a Multicenter Study,” which is currently under review at Radiology. The project is under active development and will be continuously updated.
-MVO-RadAI provides a reproducible workflow for automated microvascular obstruction (MVO) segmentation on cardiac MRI and radiomics-based prognostic modeling. The repository includes PyTorch-based segmentation inference, PyRadiomics feature extraction from MVO regions, and downstream LASSO-based feature selection with Cox proportional hazards modeling (e.g., via scikit-learn/lifelines) for risk stratification of major adverse cardiovascular events (MACE). It is organized to support consistent dataset partitioning (training/internal test/external test), standardized evaluation, and transparent experiment configuration.
+## Overview
+
+This repository accompanies the manuscript entitled **“AI-based Histological Heterogeneity of Microvascular Obstruction in Cardiac MRI Aids Prediction of MACE in a Multicenter Study,”** which is currently under review at **Radiology**.  
+The project is under active development and will be continuously updated.
+
+**MVO-RadAI** provides a reproducible workflow for automated **microvascular obstruction (MVO)** segmentation on cardiac MRI and radiomics-based prognostic modeling. The repository includes:
+
+- **PyTorch**-based segmentation inference  
+- **PyRadiomics** feature extraction from MVO regions  
+- Downstream **LASSO**-based feature selection and **Cox proportional hazards** modeling (e.g., via scikit-learn/lifelines) for risk stratification of **major adverse cardiovascular events (MACE)**
+
+The codebase is organized to support consistent dataset partitioning (**training/internal test/external test**), standardized evaluation, and transparent experiment configuration.
+``
